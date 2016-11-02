@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour {
 
     void Awake()
     {
+        //Set fixed resolution
         Screen.SetResolution(300, 360, false);
         SetGameManagerReferenceOnButtons();
         playerSide = "X";
