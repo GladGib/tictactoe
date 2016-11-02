@@ -16,7 +16,7 @@ public class GridSpace : MonoBehaviour {
         {
             buttonText.text = gameManager.GetPlayerSide();
             button.interactable = false;
-            gameManager.EndTurn();
+            gameManager.EndTurn();  //Next player turn
         }
     }
 
